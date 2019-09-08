@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="360px" viewBox="0 0 360 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-343.000000, -95.000000)">
+            <g id="Group-3" transform="translate(343.000000, 95.000000)">
+                <g id="Group-2" stroke-width="10">
+                    <circle id="Oval" stroke="#CD76C1" cx="180" cy="180" r="122"></circle>
+                    <circle id="Oval" stroke="#A076CD" cx="180.5" cy="179.5" r="130.5"></circle>
+                    <circle id="Oval" stroke="#767BCD" cx="180.5" cy="179.5" r="139.5"></circle>
+                    <circle id="Oval" stroke="#65B183" cx="180.5" cy="179.5" r="148.5"></circle>
+                    <circle id="Oval" stroke="#EFE988" cx="180.5" cy="179.5" r="156.5"></circle>
+                    <circle id="Oval" stroke="#EFBE88" cx="180.5" cy="180.5" r="165.5"></circle>
+                    <circle id="Oval" stroke="#EF9588" cx="180" cy="180" r="175"></circle>
+                </g>
+                <g id="Group" transform="translate(73.000000, 72.000000)">
+                    <path d="M108,216 C138.960045,216 156.363766,159.915709 155.183776,103.939021 C154.09043,52.0725928 136.686708,0 108,0 C48.353247,0 0,48.353247 0,108 C0,167.646753 48.353247,216 108,216 Z" id="Oval" fill="#536ECD"></path>
+                    <path d="M105.873503,216 C165.590118,216 214,167.646753 214,108 C214,48.353247 165.590118,0 105.873503,0 C102.530947,0 106.741196,0.716958788 105.873503,2.01931409 C103.703639,5.27615095 119.483807,43.7387334 124.899039,55.9740395 C136.003893,81.0646158 151.212849,119.229832 142.612941,146.913005 C135.533836,169.700703 102.232372,216 105.873503,216 Z" id="Oval" fill="#4863BF"></path>
+                </g>
+                <rect id="Rectangle" fill="#75A353" x="176" y="103" width="68" height="30" rx="14"></rect>
+                <rect id="Rectangle" fill="#75A353" x="176" y="103" width="68" height="30" rx="14"></rect>
+                <rect id="Rectangle" fill="#75A353" x="149" y="220" width="68" height="35" rx="14"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="201" y="119" width="57" height="17" rx="8.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="143" y="244" width="63" height="21" rx="10.5"></rect>
+                <rect id="Rectangle" fill="#75A353" x="173" y="157" width="68" height="42" rx="14"></rect>
+                <rect id="Rectangle" fill="#75A353" x="101" y="145" width="68" height="33" rx="14"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="193" y="184" width="68" height="14" rx="7"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="89" y="136" width="48" height="21" rx="10.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="99" y="150" width="48" height="14" rx="7"></rect>
+                <path d="M178.873503,288 C238.590118,288 287,239.646753 287,180 C287,120.353247 238.590118,72 178.873503,72 C175.530947,72 179.741196,72.7169588 178.873503,74.0193141 C176.703639,77.276151 192.483807,115.738733 197.899039,127.974039 C209.003893,153.064616 224.212849,191.229832 215.612941,218.913005 C208.533836,241.700703 175.232372,288 178.873503,288 Z" id="Oval" fill-opacity="0.2" fill="#4863BF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
