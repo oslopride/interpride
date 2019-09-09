@@ -1,25 +1,12 @@
 import React from "react";
+import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
 
 const Index = () => (
   <div>
     <header>
-      <a href="/" aria-label="Go to the homepage">
-        <img src="/static/logo.svg" alt="Interpride AGM logo" />
-        INTERPRIDE
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="/venue">Venue</a>
-          </li>
-          <li>
-            <a href="/tickets">Tickets</a>
-          </li>
-          <li>
-            <a href="/schedule">Schedule</a>
-          </li>
-        </ul>
-      </nav>
+      <Logo />
+      <Navigation />
     </header>
 
     <div>
