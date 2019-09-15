@@ -14,6 +14,11 @@ const Info = () => {
         <S.Text>
           <h2>What is Interpride AGM?</h2>
           <p>Lorem ipsum</p>
+          <S.Button>
+            <a href="https://drive.google.com/open?id=1-JdJVLJibIGt89dyMBSnvLl0YqZJyimB">
+              Download the bid
+            </a>
+          </S.Button>
         </S.Text>
       </div>
     </S.Info>

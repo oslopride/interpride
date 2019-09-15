@@ -56,3 +56,24 @@ export const Text = styled.div`
     margin-bottom: 1.3rem;
   }
 `;
+
+export const Button = styled.div`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: #c63e3a;
+  appearance: none;
+  cursor: pointer;
+
+  a {
+    font-family: Open Sans;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+`;
