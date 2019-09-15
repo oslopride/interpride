@@ -14,7 +14,7 @@ const Index = () => (
           <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div>
-          <h2>Tickets</h2>
+          <h2>Registration</h2>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div>
