@@ -16,6 +16,11 @@ export const Date = styled.div`
   min-height: 10vw;
   padding: 3rem 0 30vw;
   text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: 620px) {
+    font-size: 1.25rem;
+  }
 `;
 
 export const Links = styled.div`
