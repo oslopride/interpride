@@ -1,20 +1,12 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Info from "../components/Info";
 
 const Index = () => (
   <div>
     <Hero />
 
-    <div>
-      <img
-        src="https://placeimg.com/640/480/nature/grayscale"
-        alt="Interpride illustration"
-      />
-      <div>
-        <h2>What is Interpride AGM?</h2>
-        <p>Lorem ipsum</p>
-      </div>
-    </div>
+    <Info />
   </div>
 );
 
