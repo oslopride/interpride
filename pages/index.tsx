@@ -1,7 +1,9 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 const Index = () => (
   <div>
+<<<<<<< HEAD
     <div>
       <div>
         <h1>1 - 4 October 2020</h1>
@@ -23,6 +25,9 @@ const Index = () => (
         </div>
       </div>
     </div>
+=======
+    <Hero></Hero>
+>>>>>>> Add resposive style to Hero
 
     <div>
       <img
