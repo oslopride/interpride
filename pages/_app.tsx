@@ -1,8 +1,7 @@
 import App from "next/app";
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default class NextApp extends App {
   componentDidMount() {
@@ -19,13 +18,8 @@ export default class NextApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <header>
-          <Logo />
-          <Navigation />
-        </header>
-
+        <Header />
         <Component {...pageProps} />
-
         <Footer />
       </>
     );

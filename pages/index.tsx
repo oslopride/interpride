@@ -27,7 +27,7 @@ const Index = () => (
     <div>
       <img
         src="https://placeimg.com/640/480/nature/grayscale"
-        alt="Interpride illustation"
+        alt="Interpride illustration"
       />
       <div>
         <h2>What is Interpride AGM?</h2>

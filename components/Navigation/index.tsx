@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
+import * as S from "./styles";
 
 const Navigation = () => (
-  <nav>
+  <S.Nav>
     <ul>
       <li>
         <Link href="/venue">
@@ -20,7 +21,7 @@ const Navigation = () => (
         </Link>
       </li>
     </ul>
-  </nav>
+  </S.Nav>
 );
 
 export default Navigation;
