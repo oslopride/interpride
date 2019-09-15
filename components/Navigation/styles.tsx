@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    margin-left: -0.3em;
+    padding-left: 0;
     font-size: 0.85rem;
     list-style: none;
 
