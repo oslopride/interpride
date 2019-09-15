@@ -8,5 +8,6 @@ export const Header = styled.header`
   @media (min-width: 620px) {
     display: flex;
     justify-content: space-between;
+    padding: 1rem 1rem;
   }
 `;

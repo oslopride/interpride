@@ -36,7 +36,7 @@ export const Nav = styled.nav`
           bottom: 0;
           width: 80%;
           height: 2px;
-          background-color: #fc2f70;
+          background-color: #c63e3a;
           transform-origin: center;
           transform: translate(-50%, 0) scaleX(0);
           transition: transform 0.3s ease-in-out;
