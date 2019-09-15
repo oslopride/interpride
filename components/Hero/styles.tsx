@@ -19,7 +19,15 @@ export const Date = styled.div`
   text-transform: uppercase;
 
   @media (min-width: 620px) {
-    font-size: 1.25rem;
+    padding: 3rem 0 15vw;
+  }
+
+  h1 {
+    margin: 1rem;
+
+    @media (min-width: 620px) {
+      font-size: 3rem;
+    }
   }
 `;
 
@@ -36,18 +44,18 @@ export const Links = styled.div`
   text-align: center;
 
   @media (min-width: 620px) {
-    margin-top: -30vw;
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+    margin-top: -20vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   @media (min-width: 920px) {
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 
   @media (min-width: 1120px) {
-    padding-top: 10rem;
-    padding-bottom: 12rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   > div {
