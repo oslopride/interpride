@@ -58,5 +58,9 @@ export const Links = styled.div`
       margin-right: 2rem;
       margin-left: 2rem;
     }
+
+    p {
+      font-family: Open Sans;
+    }
   }
 `;
