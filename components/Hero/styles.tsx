@@ -36,31 +36,32 @@ export const Links = styled.div`
   z-index: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-flow: row wrap;
   margin-top: -40vw;
-  padding: 4rem;
-  min-height: 20vw;
+  padding: 4rem 1rem;
+  min-height: 10vw;
   text-align: center;
 
   @media (min-width: 620px) {
     margin-top: -20vw;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   @media (min-width: 920px) {
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
 
   @media (min-width: 1120px) {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
-  > div {
+  div {
     margin: 1rem;
     max-width: 340px;
+    cursor: pointer;
 
     @media (min-width: 620px) {
       margin-right: 2rem;
