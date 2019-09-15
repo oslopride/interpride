@@ -1,8 +1,14 @@
 import App from "next/app";
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+`;
 
 export default class NextApp extends App {
   componentDidMount() {
@@ -19,13 +25,9 @@ export default class NextApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <header>
-          <Logo />
-          <Navigation />
-        </header>
-
+        <GlobalStyle />
+        <Header />
         <Component {...pageProps} />
-
         <Footer />
       </>
     );
