@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from "react";
 import Link from "next/link";
 import ReactSVG from "react-svg";
+import * as S from "./styles";
 
 type Props = {
   classname?: string;
@@ -9,9 +10,9 @@ type Props = {
 const Logo: FunctionComponent<Props> = ({ classname }) => {
   return (
     <Link href="/">
-      <a className={classname} aria-label="Go to the homepage">
+      <S.LogoLink className={classname} aria-label="Go to the homepage">
         <ReactSVG src="/static/logo.svg" />
-      </a>
+      </S.LogoLink>
     </Link>
   );
 };
