@@ -10,7 +10,11 @@ type Props = {
 const Logo: FunctionComponent<Props> = ({ classname }) => {
   return (
     <Link href="/">
-      <S.LogoLink className={classname} aria-label="Go to the homepage">
+      <S.LogoLink
+        className={classname}
+        aria-label="Go to the homepage"
+        tabIndex={0}
+      >
         <ReactSVG src="/static/logo.svg" />
       </S.LogoLink>
     </Link>
