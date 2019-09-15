@@ -6,12 +6,12 @@ const Navigation = () => (
     <ul>
       <li>
         <Link href="/venue">
-          <a aria-label="More information on the venue">Venue</a>
+          <a aria-label="Information on the venue">Venue</a>
         </Link>
       </li>
       <li>
-        <Link href="/tickets">
-          <a aria-label="Information on tickets and pricing">Tickets</a>
+        <Link href="/registration">
+          <a aria-label="Registration and pricing information">Registration</a>
         </Link>
       </li>
       <li>

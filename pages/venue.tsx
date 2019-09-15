@@ -54,11 +54,11 @@ const Venue = () => (
       <h2>Pricing</h2>
       <p>
         1,590 NOK (USD 199) for a double room per night including breakfast
-        (taxes included). For a complete pricing example and alternatives, see{" "}
-        <Link href="/tickets">
-          <a>tickets</a>
-        </Link>
-        .
+        (taxes included). Head over to{" "}
+        <Link href="/registration">
+          <a>the registration page</a>
+        </Link>{" "}
+        to see what{"'"}s included in the registration fee.
       </p>
     </div>
   </div>
