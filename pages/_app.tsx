@@ -1,5 +1,8 @@
 import App from "next/app";
 import React from "react";
+import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 export default class NextApp extends App {
   componentDidMount() {
@@ -14,6 +17,17 @@ export default class NextApp extends App {
 
   render() {
     const { Component, pageProps } = this.props;
-    return <Component {...pageProps} />;
+    return (
+      <>
+        <header>
+          <Logo />
+          <Navigation />
+        </header>
+
+        <Component {...pageProps} />
+
+        <Footer />
+      </>
+    );
   }
 }

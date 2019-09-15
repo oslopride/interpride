@@ -1,14 +1,7 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
 
 const Index = () => (
   <div>
-    <header>
-      <Logo />
-      <Navigation />
-    </header>
-
     <div>
       <div>
         <h1>1 - 4 October 2020</h1>
@@ -41,8 +34,6 @@ const Index = () => (
         <p>Lorem ipsum</p>
       </div>
     </div>
-
-    <footer>Footer</footer>
   </div>
 );
 
