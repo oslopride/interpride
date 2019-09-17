@@ -5,8 +5,14 @@ import Header from "../components/Header";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+  html {
+    font-size: 16px;
+  }
+
   body {
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
   }
 `;
 
