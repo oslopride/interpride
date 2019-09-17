@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const Info = styled.div`
-  padding: 1rem;
+export const About = styled.div`
+  margin: 2rem 1rem;
 
   div:first-child {
     margin: 0 auto;
@@ -54,6 +54,10 @@ export const Text = styled.div`
     font-family: Open Sans;
     font-size: 1.1rem;
     margin-bottom: 1.3rem;
+  }
+
+  a {
+    color: black;
   }
 `;
 
