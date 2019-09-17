@@ -8,16 +8,12 @@ export const Banner = styled.div`
 export const Title = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2vw;
+  padding: 2rem;
 
   h1 {
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
-
-    @media (min-width: 620px) {
-      text-align: left;
-    }
   }
 `;
