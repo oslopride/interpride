@@ -2,31 +2,14 @@ import React from "react";
 import Link from "next/link";
 import PageTitle from "../components/PageTitle";
 import * as S from "../components/PageContent";
+import VenueHero from "../components/VenueHero";
 
 const Venue = () => (
   <>
     <PageTitle title="Clarion Hotel Oslo"></PageTitle>
+    <VenueHero />
     <S.PageContent>
-      <img src="/static/clarion-hotel-oslo.jpg" alt="Hotel illustration" />
       <div>
-        <ul>
-          <li>
-            <a
-              href="https://www.google.com/maps/?q=59.9078,10.7564272"
-              aria-label="Google maps"
-            >
-              Dronning Eufemias Gate 15
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.nordicchoicehotels.com/hotels/norway/oslo/clarion-hotel-oslo/"
-              aria-label="The hotel website"
-            >
-              Hotel website
-            </a>
-          </li>
-        </ul>
         <p>
           The hotel is located in the city center just a few steps from the
           Central Station, next to the Oslo Opera House and the Oslofjord, where
