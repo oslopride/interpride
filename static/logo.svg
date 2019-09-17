@@ -15,7 +15,7 @@
                     <path d="M2.84217094e-14,49 C8.77595106,49 8.21694413,23 24.406188,23 C40.5954319,23 46.0825042,49 60.6326109,49 C74.3817229,49 80.3506807,23 93.972118,23 C107.593555,23 118.892535,49 127.302347,49 C135.712159,49 145.09949,23 158.939348,23 C172.779206,23 181.265135,49 187.944236,49" id="Path" stroke="#A41D2F"></path>
                 </g>
                 <text id="INTERPRIDE" font-family="Montserrat-SemiBold, Montserrat" font-size="20" font-weight="500" letter-spacing="6" fill="#000000">
-                    <tspan x="4" y="76">INTERPRIDE</tspan>
+                    <tspan x="50%" y="68" dominant-baseline="middle" text-anchor="middle">INTERPRIDE</tspan>
                 </text>
             </g>
         </g>
