@@ -14,7 +14,7 @@ const Hero = () => {
         <S.ContentBox>
           <h2>Registration</h2>
           <p>
-            The super early bird tickets will be available on <b>October 17</b>.
+            The super early-bird tickets will be available on <b>October 17</b>.
             A complete price list are avalable on{" "}
             <Link href="/registration">
               <a aria-label="Go to the registration page">
