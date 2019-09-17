@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Info from "../components/Info";
+import Info from "../components/About";
 
 const Index = () => (
   <>
