@@ -15,7 +15,7 @@ const Hero = () => {
           <h2>Registration</h2>
           <p>
             The super early-bird tickets will be available on <b>October 17</b>.
-            A complete price list are avalable on{" "}
+            You can find prices and what{"'"}s included on{" "}
             <Link href="/registration">
               <a aria-label="Go to the registration page">
                 the registration page
@@ -29,7 +29,7 @@ const Hero = () => {
           <p>
             We are currently planning our workshops, and among the topics are{" "}
             <b>solidarity</b>, <b>human rights</b> and{" "}
-            <b>making of a successful pride</b>. Keep an eye on{" "}
+            <b>making a successful pride</b>. Keep an eye on{" "}
             <Link href="/schedule">
               <a aria-label="Go to the schedule">the schedule</a>
             </Link>{" "}
