@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import PageTitle from "../components/PageTitle";
 
 const Registration = () => (
   <div>
-    <h1>Registration</h1>
+    <PageTitle title="Registration"></PageTitle>
     <p>The registration will open on October 17.</p>
     <h2>What{"'"}s included?</h2>
     <p>

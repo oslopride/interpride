@@ -3,12 +3,11 @@ import * as S from "./styles";
 
 type Props = {
   title: string;
-  color: string;
 };
 
-const PageTitle: FunctionComponent<Props> = ({ title, color }) => {
+const PageTitle: FunctionComponent<Props> = ({ title }) => {
   return (
-    <S.Banner bgColor={color}>
+    <S.Banner>
       <S.Title>
         <h1>{title}</h1>
       </S.Title>

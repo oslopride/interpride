@@ -3,7 +3,7 @@ import PageTitle from "../components/PageTitle";
 
 const Schedule = () => (
   <div>
-    <PageTitle title="Schedule" color="#428c63"></PageTitle>
+    <PageTitle title="Schedule"></PageTitle>
     <p>The complete schedule is not yet ready, and will be released later.</p>
     <h2>World Pride 2021 kick-off</h2>
     <p>

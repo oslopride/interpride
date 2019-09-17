@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const Banner = styled.div<{ bgColor: string }>`
-  background-color: ${props => props.bgColor};
+export const Banner = styled.div`
+  background-color: #05264c;
   width: 100%;
 `;
 

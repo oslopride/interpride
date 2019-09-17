@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import PageTitle from "../components/PageTitle";
 
 const Venue = () => (
   <div>
+    <PageTitle title="Clarion Hotel Oslo"></PageTitle>
     <img src="/static/clarion-hotel-oslo.jpg" alt="Hotel illustration" />
     <div>
-      <h1>Clarion Hotel Oslo</h1>
       <ul>
         <li>
           <a
