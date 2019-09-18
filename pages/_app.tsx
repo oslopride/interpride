@@ -14,6 +14,23 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
   }
+
+  #__next {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html, body, #__next {
+    height: 100%;
+  }
+
+  #content {
+    flex: 1 0 auto;
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
 `;
 
 export default class NextApp extends App {
@@ -33,7 +50,9 @@ export default class NextApp extends App {
       <>
         <GlobalStyle />
         <Header />
-        <Component {...pageProps} />
+        <div id="content">
+          <Component {...pageProps} />
+        </div>
         <Footer />
       </>
     );
