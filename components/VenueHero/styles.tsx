@@ -7,15 +7,20 @@ export const VenueHero = styled.div`
   width: 100%;
   background-color: #fec101;
 
+  img {
+    display: none;
+    max-width: 50vw;
+  }
+
   img,
   ul {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    width: 50%;
-
     @media (min-width: 620px) {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      width: 100%;
       flex: 1;
+      object-fit: cover;
     }
   }
 
@@ -52,11 +57,6 @@ export const VenueHero = styled.div`
       width: 2rem;
       height: 2rem;
       margin-right: 10px;
-
-      @media (min-width: 620px) {
-        width: 3vw;
-        height: 3vw;
-      }
     }
   }
 `;
