@@ -18,9 +18,12 @@ const About = () => {
             Oslo Pride is an active member of the European Pride Organisers
             Association, and has hosted EuroPride twice, first in 2005 and most
             recently in 2014. Oslo Pride also has a dedicated solidarity program
-            funded by the Norwegian Ministry of Foreign Affaires, enabling us to
-            host a customised conference program for Eastern European activists,
-            including Russia and the Ukraine, every year since 2015.
+            with our partners the Norwegian Helsinki Committee, Amnesty
+            International Norway and the national LGBT+ organisation Fri. The
+            program is funded by the Norwegian Ministry of Foreign Affaires,
+            enabling us to host a customised conference program for Eastern
+            European activists, including Russia, Turkey and the Ukraine, every
+            year since 2015.
           </p>
           <p>
             <a href="https://www.oslopride.no/a/oslo-pride">

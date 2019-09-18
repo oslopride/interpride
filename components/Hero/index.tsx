@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
         </S.ContentBox>
         <S.ContentBox>
-          <h2>Closing Party</h2>
+          <h2>WorldPride 2021 Kickoff</h2>
           <p>
             Pack your party shooes! Entrance to an <b>awesome party</b> on
             Saturday is included in the registration fee.
