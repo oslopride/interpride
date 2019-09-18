@@ -56,7 +56,7 @@ export const VenueHero = styled.div`
   }
 
   && {
-    @media (min-width: 1440px) {
+    @media (min-width: 1600px) {
       ul {
         max-width: 1000px;
         margin: 0 auto;
