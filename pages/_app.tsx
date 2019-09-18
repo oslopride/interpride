@@ -1,6 +1,5 @@
 import App from "next/app";
 import React from "react";
-import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { createGlobalStyle } from "styled-components";
@@ -49,10 +48,6 @@ export default class NextApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <Head>
-          <title>Interpride AGM 2020<\title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        </Head>
         <GlobalStyle />
         <Header />
         <div id="content">
