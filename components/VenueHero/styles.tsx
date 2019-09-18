@@ -39,12 +39,7 @@ export const VenueHero = styled.div`
       text-decoration: none;
       color: black;
       font-size: 1rem;
-
-      @media (min-width: 620px) {
-        height: 2vw;
-        line-height: 2vw;
-        font-size: 2vw;
-      }
+      font-family: montserrat, sans-serif;
     }
 
     li a span {
@@ -57,6 +52,18 @@ export const VenueHero = styled.div`
       width: 2rem;
       height: 2rem;
       margin-right: 10px;
+    }
+  }
+
+  && {
+    @media (min-width: 1440px) {
+      ul {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      img {
+        display: none;
+      }
     }
   }
 `;
