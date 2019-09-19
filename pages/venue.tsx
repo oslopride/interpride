@@ -14,10 +14,9 @@ const Venue = () => (
           The hotel is located in the city center just a few steps from the
           Central Station, next to the Oslo Opera House and the Oslofjord, where
           the delegates will arrive from the airport within 19 minutes on the
-          Airport Express Train (included in the conference registration fee).
-          All the LGBTQI establishments in Oslo are within walking distance of
-          the conference hotel. Choice Hotel Bjørvika is brand new, and opens in
-          April 2019.
+          Airport Express Train. All the LGBTQI establishments in Oslo are
+          within walking distance of the conference hotel. Choice Hotel Bjørvika
+          is brand new, and opens in April 2019.
         </p>
         <h2>Food</h2>
         <p>
