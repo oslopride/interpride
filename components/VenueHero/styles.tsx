@@ -8,13 +8,13 @@ export const VenueHero = styled.div`
   background-color: #fec101;
 
   img {
-    display: none;
-    max-width: 50vw;
+    width: 100%;
   }
 
   img,
   ul {
     @media (min-width: 620px) {
+      max-width: 50vw;
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
