@@ -8,7 +8,7 @@ const Registration = () => (
   <>
     <PageTitle title="Registration"></PageTitle>
     <S.PageContent>
-      <p>The registration will open on October 17.</p>
+      <p>The registration will open soon.</p>
       <h2>What{"'"}s included?</h2>
       <p>
         We strive to offer an all inclusive experience. All lunches and cofee
