@@ -15,7 +15,7 @@ const Logo: FunctionComponent<Props> = ({ classname }) => {
         aria-label="Go to the homepage"
         tabIndex={0}
       >
-        <ReactSVG src="/static/logo.svg" />
+        <img src="/static/ip_logo_black.png" alt="Interpride logo" />
       </S.LogoLink>
     </Link>
   );
