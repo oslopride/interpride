@@ -1,39 +1,51 @@
 {
-  "name": "interpride",
-  "version": "1.0.0",
-  "description": "Interpride AGM website",
-  "main": "index.js",
-  "repository": "git@github.com:oslopride/interpride.git",
-  "author": "Oslo Pride",
-  "license": "MPL-2.0",
-  "private": false,
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint": "eslint --quiet src --ext ts --ext tsx",
+    "lint:fix": "yarn lint --fix",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check": "tsc"
   },
   "dependencies": {
-    "next": "^9.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-svg": "^10.0.20",
-    "styled-components": "^4.3.2",
-    "webfontloader": "^1.6.28"
+    "@types/styled-components": "^4.1.20",
+    "@types/typography": "^0.16.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "gatsby": "^2.17.4",
+    "gatsby-plugin-styled-components": "^3.1.11",
+    "gatsby-plugin-typescript": "^2.1.15",
+    "gatsby-plugin-typography": "^2.3.15",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-svg": "^10.0.23",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.4.0",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
-    "@types/node": "^12.7.4",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "@types/styled-components": "^4.1.19",
-    "@types/webfontloader": "^1.6.29",
-    "@typescript-eslint/eslint-plugin": "^2.1.0",
-    "@typescript-eslint/parser": "^2.1.0",
-    "babel-plugin-styled-components": "^1.10.6",
-    "eslint": "^6.3.0",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
