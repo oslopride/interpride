@@ -13,4 +13,8 @@ export const Footer = styled.footer`
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	a {
+		margin-right: 10px;
+	}
 `;
