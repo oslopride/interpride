@@ -16,7 +16,7 @@ const PriceTable = () => {
 					<tr>
 						<td>Super Early-Bird</td>
 						<td>210 USD</td>
-						<td>January 1, 2020</td>
+						<td>January 31, 2020</td>
 					</tr>
 					<tr>
 						<td>Early-Bird</td>
