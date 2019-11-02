@@ -7,7 +7,7 @@ const PriceTable = () => {
 			<table>
 				<thead>
 					<tr>
-						<th></th>
+						<th />
 						<th>Price</th>
 						<th>Registration deadline</th>
 					</tr>

@@ -1,12 +1,8 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import { Link } from "gatsby";
 import * as S from "./styles";
 
-type Props = {
-	classname?: string;
-};
-
-const Logo: FunctionComponent<Props> = ({ classname }) => {
+const Logo = ({ classname }) => {
 	return (
 		<Link to="/">
 			<S.LogoLink

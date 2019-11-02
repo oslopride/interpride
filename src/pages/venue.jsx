@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 const Venue = () => (
 	<>
 		<Header />
-		<PageTitle title="Clarion Hotel Oslo"></PageTitle>
+		<PageTitle title="Clarion Hotel Oslo" />
 		<VenueHero />
 		<S.PageContent>
 			<div>
@@ -43,8 +43,8 @@ const Venue = () => (
 				<p>
 					1,590 NOK (USD 199) for a double room per night including breakfast
 					(taxes included). Head over to{" "}
-					<Link to="/registration">the registration page</Link> to see what{"'"}
-					s included in the registration fee.
+					<Link to="/registration">the registration page</Link> to see what' s
+					included in the registration fee.
 				</p>
 			</div>
 		</S.PageContent>

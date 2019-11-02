@@ -9,10 +9,10 @@ import Footer from "../components/Footer";
 const Registration = () => (
 	<>
 		<Header />
-		<PageTitle title="Registration"></PageTitle>
+		<PageTitle title="Registration" />
 		<S.PageContent>
 			<p>The registration will open soon.</p>
-			<h2>What{"'"}s included?</h2>
+			<h2>What's included?</h2>
 			<p>
 				We strive to offer an all inclusive experience. All lunches and cofee
 				breaks (as well as snacks) will be included. Free entry and drink

@@ -15,7 +15,7 @@ const Hero = () => {
 					<h2>Registration</h2>
 					<p>
 						The super early-bird tickets will be available <b>soon</b>. You can
-						find prices and what{"'"}s included on{" "}
+						find prices and what's included on{" "}
 						<Link to="/registration" aria-label="Go to the registration page">
 							the registration page
 						</Link>

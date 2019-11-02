@@ -1,11 +1,7 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import * as S from "./styles";
 
-type Props = {
-	title: string;
-};
-
-const PageTitle: FunctionComponent<Props> = ({ title }) => {
+const PageTitle = ({ title }) => {
 	return (
 		<S.Banner>
 			<S.Title>

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Schedule = () => (
 	<>
 		<Header />
-		<PageTitle title="Schedule"></PageTitle>
+		<PageTitle title="Schedule" />
 		<S.PageContent>
 			<p>The complete schedule is not yet ready, and will be released later.</p>
 			<h2>World Pride 2021 kick-off</h2>
