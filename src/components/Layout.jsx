@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function({ children }) {
+export default function Layout({ children }) {
 	return (
 		<>
 			<Header />

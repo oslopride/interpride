@@ -6,20 +6,20 @@
 
 module.exports = {
 	plugins: [
-		`gatsby-plugin-styled-components`,
+		"gatsby-plugin-styled-components",
 		{
-      resolve: `gatsby-plugin-typography`,
+      resolve: "gatsby-plugin-typography",
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: "src/utils/typography",
       },
 		},
 		{
-      resolve: 'gatsby-source-sanity',
+      resolve: "gatsby-source-sanity",
       options: {
-        projectId: 'vkt86e4g',
-        dataset: 'production',
+        projectId: "vkt86e4g",
+        dataset: "production",
         token: process.env.MY_SANITY_TOKEN,
-      },
+      }
     }
 	]
 }
