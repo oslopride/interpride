@@ -1,30 +1,34 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 import * as S from "./styles";
 
-const Navigation = () => (
-	<S.Nav>
-		<ul>
-			<li>
-				<Link to="/venue" aria-label="Information on the venue">
-					Venue
-				</Link>
-			</li>
-			<li>
-				<Link
-					to="/registration"
-					aria-label="Registration and pricing information"
-				>
-					Registration
-				</Link>
-			</li>
-			<li>
-				<Link to="/schedule" aria-label="The conference schedule">
-					Schedule
-				</Link>
-			</li>
-		</ul>
-	</S.Nav>
-);
+export default function() {
+	const data = useStaticQuery(
+		graphql`
+			query SanityNavbarConfigQuery {
+				sanityConfig(_id: { eq: "global-config" }) {
+					navbar {
+						title
+						slug {
+							current
+						}
+					}
+				}
+			}
+		`
+	);
 
-export default Navigation;
+	const links = (data.sanityConfig.navbar || []).map(page => (
+		<li key={page.slug.current}>
+			<Link to={`/${page.slug.current}`} aria-label={page.title}>
+				{page.title}
+			</Link>
+		</li>
+	));
+
+	return (
+		<S.Nav>
+			<ul>{links}</ul>
+		</S.Nav>
+	);
+}

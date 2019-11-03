@@ -1,16 +1,15 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Info from "../components/About";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { graphql } from "gatsby";
+import Page from "../templates/page";
 
-const Index = () => (
-	<>
-		<Header />
-		<Hero />
-		<Info />
-		<Footer />
-	</>
-);
+export default function FrontPage({ data: { frontPage } }) {
+	return <Page data={{ page: frontPage }} />;
+}
 
-export default Index;
+export const query = graphql`
+	query SanityFrontPagesQuery {
+		frontPage: sanityFrontPage(_id: { eq: "global-frontPage" }) {
+			_rawLayout
+		}
+	}
+`;

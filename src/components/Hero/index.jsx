@@ -1,49 +1,29 @@
 import React from "react";
 import * as S from "./styles";
-import { Link } from "gatsby";
+import BlockContent from "@sanity/block-content-to-react";
 
-const Hero = () => {
+function Promotion({ heading, content }) {
+	return (
+		<S.ContentBox>
+			<h2>{heading}</h2>
+			<BlockContent blocks={content} />
+		</S.ContentBox>
+	);
+}
+
+export default function Hero({ title, subtitle, promotions }) {
 	return (
 		<S.Hero>
 			<S.Title>
-				<h1>1 - 4 October 2020</h1>
-				<h1>Oslo, Norway</h1>
+				<h1>{title}</h1>
+				<h1>{subtitle}</h1>
 			</S.Title>
 
 			<S.Content>
-				<S.ContentBox>
-					<h2>Registration</h2>
-					<p>
-						The super early-bird tickets will be available <b>soon</b>. You can
-						find prices and what's included on{" "}
-						<Link to="/registration" aria-label="Go to the registration page">
-							the registration page
-						</Link>
-						.
-					</p>
-				</S.ContentBox>
-				<S.ContentBox>
-					<h2>Workshops</h2>
-					<p>
-						We are currently planning our workshops, and among the topics are{" "}
-						<b>solidarity</b>, <b>human rights</b> and{" "}
-						<b>making a successful pride</b>. Keep an eye on{" "}
-						<Link to="/schedule" aria-label="Go to the schedule">
-							the schedule
-						</Link>{" "}
-						for more information.
-					</p>
-				</S.ContentBox>
-				<S.ContentBox>
-					<h2>WorldPride 2021 Kickoff</h2>
-					<p>
-						Pack your party shooes! Entrance to an <b>awesome party</b> on
-						Saturday is included in the registration fee.
-					</p>
-				</S.ContentBox>
+				{promotions.map(promotion => (
+					<Promotion key={promotion._key} {...promotion} />
+				))}
 			</S.Content>
 		</S.Hero>
 	);
-};
-
-export default Hero;
+}

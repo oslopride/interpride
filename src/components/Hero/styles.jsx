@@ -35,7 +35,7 @@ export const ContentBox = styled.div`
 	max-width: 340px;
 	line-height: 1.5;
 
-	b {
+	strong {
 		color: #fec101;
 	}
 
