@@ -7,11 +7,18 @@ import TextArea from "../components/TextArea";
 import Hero from "../components/Hero";
 import Split from "../components/Split";
 import { rhythm } from "../utils/typography";
+import { urlFor } from "../utils/sanity";
 
 const TextAreaWrapper = styled.div`
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: ${rhythm(1)};
+`;
+
+const FullWidthImage = styled.img`
+	max-height: 350px;
+	width: 100%;
+	object-fit: cover;
 `;
 
 export default function Page({ data: { page } }) {
@@ -29,6 +36,16 @@ export default function Page({ data: { page } }) {
 				return <Hero key={section._key} {...section} />;
 			case "split":
 				return <Split key={section._key} {...section} />;
+			case "image":
+				return (
+					<FullWidthImage
+						src={urlFor(section)
+							.height(350)
+							.width(1200)
+							.url()}
+						key={section._key}
+					/>
+				);
 			default:
 				console.log(`Unknown layout type: "${section._type}"`);
 				return <div key={section._key} />;
