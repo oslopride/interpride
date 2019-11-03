@@ -37,7 +37,7 @@ export default function Split({ elements }) {
 				switch (element._type) {
 					case "textArea":
 						return <SplitTextArea key={element._key} {...element} />;
-					case "webImage":
+					case "figure":
 						return (
 							<Image
 								key={element._key}
