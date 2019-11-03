@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "interpride2020",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Conference website for InterPride World Conference & EPOA AGM 2020",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -18,6 +18,7 @@
     "gatsby": "^2.17.4",
     "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-plugin-typography": "^2.3.15",
+    "gatsby-source-sanity": "^5.0.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-svg": "^10.0.23",
