@@ -5,9 +5,9 @@ import * as S from "./styles";
 export default function() {
 	const data = useStaticQuery(
 		graphql`
-			query AllSanityPagesQuery {
-				allSanityPage {
-					nodes {
+			query SanityNavbarConfigQuery {
+				sanityConfig(_id: { eq: "global-config" }) {
+					navbar {
 						title
 						slug {
 							current
@@ -18,7 +18,7 @@ export default function() {
 		`
 	);
 
-	const links = (data.allSanityPage.nodes || []).map(page => (
+	const links = (data.sanityConfig.navbar || []).map(page => (
 		<li key={page.slug.current}>
 			<Link to={`/${page.slug.current}`} aria-label={page.title}>
 				{page.title}
