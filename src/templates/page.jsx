@@ -21,8 +21,8 @@ export default function Page({ data: { page } }) {
 				return <PageTitle key={section._key} title={section.text} />;
 			case "textArea":
 				return (
-					<TextAreaWrapper>
-						<TextArea key={section._key} {...section} />
+					<TextAreaWrapper key={section._key}>
+						<TextArea {...section} />
 					</TextAreaWrapper>
 				);
 			case "hero":
