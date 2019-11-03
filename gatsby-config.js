@@ -12,6 +12,14 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-	],
+		},
+		{
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'vkt86e4g',
+        dataset: 'production',
+        token: process.env.MY_SANITY_TOKEN,
+      },
+    }
+	]
 }
