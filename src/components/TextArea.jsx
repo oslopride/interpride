@@ -2,6 +2,7 @@ import React from "react";
 import BlockContent from "@sanity/block-content-to-react";
 import styled from "styled-components";
 import { urlFor } from "../utils/sanity";
+import YouTubeEmbed from "./YouTubeEmbed";
 
 const Image = styled.img`
 	max-height: 400px;
@@ -19,6 +20,9 @@ const serializers = {
 						.url()}
 				/>
 			);
+		},
+		youtube(props) {
+			return <YouTubeEmbed url={(props.node || {}).url} />;
 		}
 	}
 };
