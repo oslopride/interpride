@@ -2,10 +2,10 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Layout({ children }) {
+export default function Layout({ children, locale }) {
 	return (
 		<>
-			<Header />
+			<Header locale={locale} />
 			{children}
 			<Footer />
 		</>

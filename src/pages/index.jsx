@@ -2,13 +2,13 @@ import React from "react";
 import { graphql } from "gatsby";
 import Page from "../templates/page";
 
-export default function FrontPage({ data: { frontPage } }) {
-	return <Page data={{ page: frontPage }} />;
+export default function FrontPage(props) {
+	return <Page {...props} />;
 }
 
 export const query = graphql`
 	query SanityFrontPagesQuery {
-		frontPage: sanityFrontPage(_id: { eq: "global-frontPage" }) {
+		page: sanityFrontPage(_id: { eq: "global-frontPage" }) {
 			_rawLayout
 		}
 	}

@@ -21,8 +21,8 @@ const FullWidthImage = styled.img`
 	object-fit: cover;
 `;
 
-export default function Page({ data: { page } }) {
-	const layout = page._rawLayout.map(section => {
+export default function Page({ data: { page }, pageContext: { locale } }) {
+	const layout = (page._rawLayout[locale] || []).map(section => {
 		switch (section._type) {
 			case "banner":
 				return <PageTitle key={section._key} title={section.text} />;
@@ -52,13 +52,12 @@ export default function Page({ data: { page } }) {
 		}
 	});
 
-	return <Layout>{layout}</Layout>;
+	return <Layout locale={locale}>{layout}</Layout>;
 }
 
 export const query = graphql`
 	query PageTemplateQuery($id: String!) {
 		page: sanityPage(id: { eq: $id }) {
-			title
 			_rawLayout(resolveReferences: { maxDepth: 10 })
 		}
 	}

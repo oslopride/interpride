@@ -2,13 +2,17 @@ import React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import * as S from "./styles";
 
-export default function() {
+export default function({ locale }) {
 	const data = useStaticQuery(
 		graphql`
 			query SanityNavbarConfigQuery {
 				sanityConfig(_id: { eq: "global-config" }) {
 					navbar {
-						title
+						title {
+							en
+							es
+							fr
+						}
 						slug {
 							current
 						}
@@ -18,10 +22,15 @@ export default function() {
 		`
 	);
 
+	const prefix = locale === "en" ? "/" : `/${locale}/`;
+
 	const links = (data.sanityConfig.navbar || []).map(page => (
 		<li key={page.slug.current}>
-			<Link to={`/${page.slug.current}`} aria-label={page.title}>
-				{page.title}
+			<Link
+				to={`${prefix}${page.slug.current}`}
+				aria-label={page.title[locale]}
+			>
+				{page.title[locale] || page.title.en}
 			</Link>
 		</li>
 	));
