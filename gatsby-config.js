@@ -20,6 +20,16 @@ module.exports = {
         dataset: "production",
         token: process.env.MY_SANITY_TOKEN,
       }
-    }
+		},
+		{
+			resolve: "gatsby-plugin-google-analytics",
+			options: {
+				trackingId: "UA-54270444-2",
+				head: false,
+				anonymize: true,
+				pageTransitionDelay: 0,
+				siteSpeedSampleRate: 10
+			}
+		}
 	]
 }
