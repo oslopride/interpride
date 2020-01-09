@@ -7,6 +7,8 @@ export const Header = styled.header`
 
 	@media (min-width: 620px) {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 		justify-content: space-between;
 		padding: 1rem 1rem;
 	}
