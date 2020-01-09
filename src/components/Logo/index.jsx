@@ -11,7 +11,7 @@ const Logo = ({ classname, locale }) => {
 				aria-label="Go to the homepage"
 				tabIndex={0}
 			>
-				<img src="/ip_logo_black.png" alt="Interpride logo" />
+				<img src="/InterPrideEPOA.png" alt="Interpride EPOA logo" />
 			</S.LogoLink>
 		</Link>
 	);
